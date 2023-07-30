@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">  
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMS IN HTML</title>
+</head>
+
+<body>
+    <h2> FORMS </h2> 
+    <!-- over here we are putting data in backed designed in php  -->
+    <form action="backed.php">
+
+        <label for="myName">NAME:</label>
+        <!-- if we will use div tag we can actually  divide these forms and will get a better look, but br tag is not recommened hence use div tag -->
+        <div> <input type="text" name="myName" id="myName"></div>
+        <br>
+        <label for="myage"> AGE</label>
+        <div> <input type="number" age="myAge" id="myage"></div>
+        <br>
+        <label for="myGender"> GENDER:</label>
+
+        <div> <input type="text" sex="myGender" id="myGender"></div>
+        <br>
+        <label for="myEmail"> EMAIL:</label>
+        <div><input type="email" email="myEmail" id="myEmail">
+        </div>
+        <br>
+        <label for="mydate"> DATE </label>
+        <div> <input type="date" date="myDate" id="mydate"></div>
+        <br>
+        <div> ARE YOU ELEGIBLE FOR THE POST <input type="color">
+            <div> <br>
+                <div> ACCOMODATION <input type="radio" name="accomodation"> YES <input type="radio" name="accomodation">
+                    NO </div> <br>
+            </div>
+            <label for="tellabout">ABOUT YOUR SELF</label>
+            <div><textarea name="mytext" cols="20" rows="10" id="tellabout"></textarea></div>
+
+            <div> <input type="submit" value="SUBMIT"></div> <br>
+            <div> <input type="reset" value="RESET"> </div>
+            </form>
+            </body>
+
+
+
+
+
+
+
+
+</html>
